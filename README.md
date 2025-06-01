@@ -1,1 +1,7 @@
-This is a Individual Assignment 1 of course SMM30503 WEB DESIGN AND DEVELOPMENT from HO XIAO CI (231420045), group C
+## 🔗 Website Links
+
+- [HOME](https://hoxiaoci.github.io/Individual-Assignment-1/index.html)
+- [INTRODUCE](https://hoxiaoci.github.io/Individual-Assignment-1/introduce.html)
+- [GUIDE](https://hoxiaoci.github.io/Individual-Assignment-1/guide.html)
+- [INSPIRATION](https://hoxiaoci.github.io/Individual-Assignment-1/inspiration.html)
+- [ABOUT](https://hoxiaoci.github.io/Individual-Assignment-1/about.html)
