@@ -1,1 +1,1 @@
-[view the HOME page](home/home.html)
+[view the HOME page](HOME/HOME.html)
