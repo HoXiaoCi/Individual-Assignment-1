@@ -1,1 +1,1 @@
-[Individual-Assignment-1/HOME/HOME.html](Individual-Assignment-1/home/home.html)
+[HOME/HOME.html](home/home.html)
