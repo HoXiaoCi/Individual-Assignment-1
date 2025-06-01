@@ -1,1 +1,1 @@
-[HOMEl](home/home.html)
+[HOME](home/home.html)
