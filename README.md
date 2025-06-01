@@ -1,1 +1,1 @@
-[HOME.html](https://hoxiaoci.github.io/Individual-Assignment-1/home.html)
+[HOME.html](home.html)
