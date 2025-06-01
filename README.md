@@ -1,1 +1,1 @@
-[HOME.html](home.html)
+[/HOME/HOME.html](/home/home.html)
