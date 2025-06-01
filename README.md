@@ -13,3 +13,5 @@ Click the link below to view the live webpage:
 👉 [View GUIDE Page](https://HoXiaoCi.github.io/Individual-Assignment-1/GUIDE/GUIDE.html)
 
 👉 [View INSPIRATION Page](https://HoXiaoCi.github.io/Individual-Assignment-1/INSPIRATION/INSPIRATION.html)
+
+👉 [View ABOUT Page](https://HoXiaoCi.github.io/Individual-Assignment-1/ABOUT/ABOUT.html)
