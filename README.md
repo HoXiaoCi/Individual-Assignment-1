@@ -1,1 +1,1 @@
-[view the HOME page](HOME/HOME.html)
+[view the HOME page](https://HoXiaoCi.github.io/Individual-Assignment-1/HOME/HOME.html)
