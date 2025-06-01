@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #0f0c29;
+    color: #e0e0ff;
+    line-height: 1.6;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #1a1838;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur (8px);
+    border-bottom: 1px solid #00f7ff;
+    box-shadow: 0 5px 15px rgba (0, 0, 0, 0.4)
+}
+
+.navbar a {
+    color: #00f7ff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    color: #ff00cc;
+    background: rgba(0, 247, 255, 0.1);
+}
+
+.navbar a.active {
+    background: rgba(255, 0, 204, 0.2);
+    color: #ff00cc;
+}
+
+.hero {
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    padding: 60px 20px;
+    background: url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
+    color: white;
+}
+
+.hero-box {
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px;
+    border: 1px solid rgba(0,150,255,0.3);
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 90%;
+    position: relative;
+    max-width: 800px;
+    backdrop-filter: blur (8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    color: #00f7ff;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    text-shadow: 0 0 15px rgba(0,247,255,0.5);
+}
+
+.hero p {
+    color: #a0a0ff;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin: 0;
+}
+
+.hero-image {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 2px solid #00f7ff;
+}
+
+.content {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.content h2 {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: #00f7ff;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #292963;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #00f7ff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    border-color: #ff00cc;
+    box-shadow: 0 15px 35px rgba(255, 0, 204, 0.25);
+}
+
+.card i {
+    font-size: 3rem;
+    color: #ff00cc;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.card h3 {
+    color: #ff00cc;
+    margin-bottom: 10px;
+}
+
+.card strong {
+    display: block;
+    color: #00f7ff;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.card li {
+    margin-bottom: 10px;
+    color: #ccccff;
+}
+
+.icon-list {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+}
+
+.icon-list li {
+    margin-bottom: 25px;
+    padding-left: 45px;
+    position: relative;
+    font-size: 1.1rem;
+    color: #e0e0fe;
+    line-height: 1.6;
+}
+
+.icon-list li::before {
+    content:"★";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.8rem;
+    color: #ffcc00;
+    text-shadow: 0 0 10px rgba(255,204,0,0.7);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: rgba (40, 38, 80, 0.7);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #00f7ff;
+}
+
+th {
+    background-color: rgba (0, 247, 255, 0.1);
+    color: #ff00cc;
+    font-family: 'obritron', sans-serif;
+}
+
+tr:hover {
+    background-color: rgba (255, 0, 204, 0.1);
+}
+
+a {
+    color: #00f7ff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff00cc;
+    text-decoration: underline;
+}
+
+footer {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    padding: 40px 20px;
+    background: #1a1838;
+    color: #8080cc;
+    font-size: 1rem;
+    border-top: 1px solid #00f7ff;
+}
